@@ -6,7 +6,7 @@ public class Sorting {
     public static void main(String[] args) {
         //Scanner s=new Scanner(System.in);
         //BubbleSort
-        int a[]={5,4,7,6,1};
+        int a[]={4,1,3,9,2};
         int temp;
         boolean sorted = true;
 
