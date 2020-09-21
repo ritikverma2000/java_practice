@@ -2,7 +2,7 @@ package arrays;
 
 public class quickSort {
     public static void main(String[] args) {
-        int arr[]={38,27,43,3,9,82,10};
+        int arr[]={2,4,8,10,16,18,17};
         //taking last element as pivot
         int start=0,end=arr.length-1;
         Quicksort(arr,start,end);
