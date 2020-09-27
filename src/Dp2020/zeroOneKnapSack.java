@@ -2,9 +2,9 @@ package Dp2020;
 
 public class zeroOneKnapSack {
     public static void main(String[] args) {
-        int wt[] = {2, 3, 4, 5};
-        int val[] = {3, 4, 5, 6};
-        int w = 5;
+        int wt[] = {5,4,6,3};
+        int val[] = {10,40,30,50};
+        int w = 10;
         int n = 4;
         //memorization part
         int t[][] = new int[n + 1][w + 1];
