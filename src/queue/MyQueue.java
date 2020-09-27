@@ -3,7 +3,7 @@ package queue;
 public class MyQueue{
     private static int head, rear, capacity;
     private static int queue[];
-    MyQueue(int max){
+    public MyQueue(int max){
         capacity=max;
         queue = new int[capacity];
          head=rear=0;
